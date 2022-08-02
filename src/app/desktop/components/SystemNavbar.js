@@ -203,15 +203,6 @@ const SystemNavbar = () => {
                 white-space: nowrap;
               `}
             >
-              Partnered with &nbsp;&nbsp;
-            </div>
-            <BisectHosting
-              showPointerCursor
-              onClick={() => {
-                ga.sendCustomEvent('BHAdViewNavbar');
-                dispatch(openModal('BisectHosting'));
-              }}
-            />
             {/* <PulsatingCircle /> */}
           </div>
         </>
